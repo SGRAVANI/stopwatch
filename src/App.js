@@ -6,8 +6,8 @@ import StopWatchUsingInterval from './StopWatch/StopWatchUsingInterval';
 function App() {
   return (
     <div className="App">
-    <StopWatchCompo/>
-    {/* <StopWatchUsingInterval/> */}
+    {/* <StopWatchCompo/> */}
+    <StopWatchUsingInterval/>
     </div>
   );
 }

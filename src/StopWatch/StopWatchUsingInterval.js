@@ -37,13 +37,15 @@ export default function StopWatchUsingInterval() {
     }
 
   return (
-    <div className={styles.container}>
+    <div style={{position:"absolute",top:"50%",left:"50%",transform:"translate(-50%,-50%)",padding:"40px",backgroundColor:"cyan",boxShadow:"0 0 20px 10px 5px"}}>
+    <div className={styles.stopWatchContainer}>
         <h1>Stopwatch</h1>
-        <p>Time: {formatMsg(timer)}</p>
+        <p >Time: {formatMsg(timer)}</p>
         <div >
             <button onClick={handleStartStop} className={styles.btn}>{isRunning?"Stop":"Start"}</button>
             <button onClick={handleReset}className={styles.btn}>Reset</button>
         </div>
+    </div>
     </div>
   )
 }
