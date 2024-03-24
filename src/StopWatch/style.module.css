@@ -1,0 +1,20 @@
+.btn{
+    padding:3px 8px;
+    width:90px;
+    margin-right:10px;
+}
+.btn:hover{
+    font-weight: bold;
+    filter: brightness(0.9);
+    transition: all 1s;
+}
+.btnContainer{
+    /* margin-top:0.5rem; */
+}
+.stopWatchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:2rem;
+}
